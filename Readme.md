@@ -52,7 +52,7 @@ Os principais recursos aceitos pela API são:
 
 Esses recursos, quando combinados, geram um tópico ( também chamado de post). A relação entre os recursos está melhor detalhado na figura abaixo:
 
-<img src="file:///home/nomedousuario/.config/marktext/images/2020-08-27-14-21-26-image.png" title="" alt="" data-align="center">
+<img src="./docs//images/2020-08-27-14-21-26-image.png" title="" alt="" data-align="center">
 
 ## Relacionamentos
 
@@ -70,7 +70,7 @@ Os modelos para os recursos fica conforme o diagrama, onde:
 
 - Uma foto pode conter N posts;
 
-<img src="file:///home/nomedousuario/.config/marktext/images/2020-08-27-14-45-25-image.png" title="" alt="" data-align="center">
+<img src="./docs//images/2020-08-27-14-45-25-image.png" title="" alt="" data-align="center">
 
 # Implementação
 
@@ -129,7 +129,7 @@ Ao acessar a página de usuário, temos:
 
 Endereço: `http://127.0.0.1:8080/user/neyjr`
 
-<img src="file:///home/nomedousuario/.config/marktext/images/2020-08-27-16-14-01-image.png" title="" alt="" data-align="center">
+<img src="./docs//images/2020-08-27-16-14-01-image.png" title="" alt="" data-align="center">
 
 ## Interagindo com a API
 
@@ -207,7 +207,7 @@ Possui as mesmas resposta da criação de usuário.
 
 Por fim, ao acessar agora `http://127.0.0.1:8080/user/gutodisse`:
 
-<img title="" src="file:///home/nomedousuario/.config/marktext/images/2020-08-27-19-37-10-image.png" alt="" width="466" data-align="center">
+<img title="" src="./docs//images/2020-08-27-19-37-10-image.png" alt="" width="466" data-align="center">
 
 ### Adicionando foto
 
@@ -223,7 +223,7 @@ $ curl http://127.0.0.1:8080/v1/posts/new -X POST --form username=gutodisse -F t
 
 O resultado:
 
-<img title="" src="file:///home/nomedousuario/.config/marktext/images/2020-08-27-20-04-36-image.png" alt="" width="579" data-align="center">
+<img title="" src="./docs//images/2020-08-27-20-04-36-image.png" alt="" width="579" data-align="center">
 
 ## Fazendo amigos
 
@@ -272,4 +272,4 @@ O resultado  da linha do tempo do usuário Neymar, fica assim:
 
 `http://127.0.0.1:8080/user/neyjr/feed`
 
-<img src="file:///home/nomedousuario/.config/marktext/images/2020-08-30-00-33-13-image.png" title="" alt="" data-align="center">
+<img src="./docs//images/2020-08-30-00-33-13-image.png" title="" alt="" data-align="center">
