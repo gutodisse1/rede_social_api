@@ -19,14 +19,14 @@ public class PhotosController {
     
     public PhotosController(){
         PhotoModel photo01;
-        photo01 = new PhotoModel(0, 0, StoragePhotos.getPhoto(COMPLETE_PATH+"001.png"));
+        photo01 = new PhotoModel(0, 0, StoragePhotos.getPhoto(COMPLETE_PATH+"neyjr_001.png"));
         photos.add(photo01);
-        photo01 = new PhotoModel(1, 0, StoragePhotos.getPhoto(COMPLETE_PATH+"002.png"));
+        photo01 = new PhotoModel(1, 0, StoragePhotos.getPhoto(COMPLETE_PATH+"neyjr_002.png"));
         photos.add(photo01);
 
-        photo01 = new PhotoModel(2, 1, StoragePhotos.getPhoto(COMPLETE_PATH+"martavsilva10_1.png"));
+        photo01 = new PhotoModel(2, 1, StoragePhotos.getPhoto(COMPLETE_PATH+"martavsilva10_001.png"));
         photos.add(photo01);
-        photo01 = new PhotoModel(3, 1, StoragePhotos.getPhoto(COMPLETE_PATH+"martavsilva10_2.png"));
+        photo01 = new PhotoModel(3, 1, StoragePhotos.getPhoto(COMPLETE_PATH+"martavsilva10_002.png"));
         photos.add(photo01);
 
         photo01 = new PhotoModel(4, 2, StoragePhotos.getPhoto(COMPLETE_PATH+"gutodisse_001.jpg"));
